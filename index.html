@@ -19,7 +19,7 @@
 
             <button onclick="add()">
                 <h2>total:</h2>
-                <p>0</p>
+                <p id="nmr">0</p>
             </button>
 
     <script>
@@ -30,7 +30,7 @@
             render()
         }
         function render(){
-            document.querySelector("p").innerText=numero
+            document.querySelector("#nmr").innerText=numero
         }render
     </script>
 </body>
