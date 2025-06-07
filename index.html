@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>botao</title>
-</head>
-<body>
     <style>
-        p{
+        h1{
             color: red;
         }
     </style>
-<p>contadores</p>
-
-            <button onclick total ="add()"><p>0</p></button>
+</head>
+<body>
+    <h1>contadores</p>
+    <button onclick="add()">Total <span>0</span></button>
 
     <script>
         var numero = 0
@@ -23,7 +22,7 @@
             render()
         }
         function render(){
-            document.querySelector("p").innerText=numero
+            document.querySelector("span").innerText=numero
         }render
     </script>
 </body>
